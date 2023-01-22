@@ -1,0 +1,5 @@
+#Fahrenheit to Celsius
+
+t=float(input("Temperature in F : "))
+x=(t-32)*(5/9)
+print("Temperature in C : ",x)
