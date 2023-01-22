@@ -1,0 +1,8 @@
+#Area and Semi-Perimeter Of Triangle
+
+j= float(input ("Side of Triangle :")) 
+k= float(input ("Side of Triangle :")) 
+l= float(input ("Side of Triangle :")) 
+s=((j+k+l)/2)
+area = (s*(s-a)*(s-b)*(s-c)) ** 0.5 
+print('The area of the triangle is ; ' ,area);print('Semi-Perimeter of the triangle is ; ' ,s)
