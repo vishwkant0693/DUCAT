@@ -1,0 +1,31 @@
+#Currency Sorting Code
+
+num=float(input ("Enter any amount : ")) 
+ntt=num//2000 #quo
+num=num%2000  #rem
+
+nfh=num//500
+num=num%500
+
+nth=num//200
+num=num%200
+
+n1=num//100
+num=num%100
+
+n2=num//50
+num=num%50
+
+n3=num//10
+num=num%10
+
+n4=num//5
+num=num%5
+
+n5=num//2
+num=num%2
+
+n6=num//1
+num=num%1
+
+print("Number of two thousands : ",ntt);print("Number of five hundreds : ",nfh);print("Number of two hundreds : ",nth);print("Number of hundreds : ",n1);print("Number of fifties : ",n2);print("Number of tens : ",n3);print("Number of fives : ",n4);print("Number of twos : ",n5);print("Number of ones : ",n6)
